@@ -1,0 +1,283 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    height: 14%;
+    width: 100%;
+    background-color: rgb(196, 201, 201);
+    font-family: sans-serif;
+    display: flex;
+
+}
+
+#nikelogo{
+    margin-top: 15px;
+    mix-blend-mode: color-burn;
+}
+
+.text{
+    display: flex;
+     margin-left: 40px;
+
+}
+    
+
+#texthome{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(196, 201, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+#texthome:hover{
+    background-color: #a19a9a;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+
+
+#text{
+    height: 30px;
+    width: 130px;
+    background-color: rgb(196, 201, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+   margin-top: 30px;
+   margin-left: 48px;
+}
+
+#text:hover{
+      background-color: #a19a9a;
+      cursor: pointer;
+      box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+#searchicon{
+   margin-top: 30px;
+   margin-left: 380px;
+}
+
+#searchicon:hover{
+    cursor: pointer;
+}
+
+#shop{
+   margin-top: 30px;
+   margin-left: 40px;
+}
+
+#shop:hover{
+    cursor: pointer;
+}
+
+#more{
+   margin-top: 30px;
+
+    margin-left: 40px;
+}
+#more:hover{
+    cursor: pointer;
+}
+
+
+
+.middle{
+    height: 85%;
+    width: 100%;
+    background-color: rgb(221, 226, 222);
+    display: flex;
+}
+
+
+.leftside{
+    height: 85%;
+    width: 40%;
+    font: 1em sans-serif;
+
+}
+
+ .leftside h3{
+    padding-top: 70px;
+  margin-left: 60px;
+}
+
+.leftside h1{
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.leftside h4{
+    margin-left: 60px;
+    margin-top: 12px;
+} 
+
+button{
+    height: 25px;
+    width: 110px;
+    margin-left: 60px;
+    margin-top: 40px;
+    border-radius: 20px;
+    border-top-left-radius: 0%;
+    border-style: double;
+    background-color: rgb(51, 44, 44);
+    color: white;
+   box-shadow: 1px 1px 20px rgb(0, 0, 0);
+}
+button:hover{
+    cursor: pointer;
+    background-color: #a19a9a;
+    color: black;
+}
+
+.rightside{
+    height: 85%;
+    width: 60%;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-top: 80px; 
+
+}
+
+.rightside::-webkit-scrollbar{
+    display: none
+}
+
+
+
+.card1{
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(149, 138, 124);
+    margin-left: 60px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 1px 1px 20px rgb(58, 90, 170);
+}
+.card1:hover{
+cursor: pointer;
+}
+
+
+.card2{
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(149, 138, 124);
+    margin-left: 20px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 1px 1px 20px rgb(58, 90, 170);
+}
+.card2:hover{
+    cursor: pointer;
+    }
+    
+
+.card3{
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(149, 138, 124);
+    margin-left: 21px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 1px 1px 20px rgb(58, 90, 170);
+}
+.card3:hover{
+    cursor: pointer;
+    }
+    
+
+.card4{
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(149, 138, 124);
+    margin-left: 21px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 1px 1px 20px rgb(58, 90, 170);
+}
+.card4:hover{
+    cursor: pointer;
+    }
+    
+
+
+.card5{
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(149, 138, 124);
+    margin-left: 20px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 1px 1px 20px rgb(58, 90, 170);
+}
+.card5:hover{
+    cursor: pointer;
+    }
+    
+
+
+.card1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card5 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
