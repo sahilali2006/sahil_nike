@@ -10,7 +10,6 @@ html,body{
 
 }
 
-
 .main{
     height: 100%;
     width: 100%;
@@ -104,8 +103,6 @@ html,body{
     cursor: pointer;
 }
 
-
-
 .middle{
     height: 85%;
     width: 100%;
@@ -168,8 +165,6 @@ button:hover{
     display: none
 }
 
-
-
 .card1{
     height: 300px;
     width: 200px;
@@ -230,7 +225,6 @@ cursor: pointer;
     }
     
 
-
 .card5{
     height: 300px;
     width: 200px;
@@ -244,8 +238,6 @@ cursor: pointer;
 .card5:hover{
     cursor: pointer;
     }
-    
-
 
 .card1 img{
     height: 100%;
